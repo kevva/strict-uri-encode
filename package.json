@@ -1,6 +1,6 @@
 {
   "name": "strict-uri-encode",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A stricter URI encode adhering to RFC 3986",
   "license": "MIT",
   "repository": "kevva/strict-uri-encode",
