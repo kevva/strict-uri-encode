@@ -30,7 +30,7 @@ strictUriEncode('unicorn!foobar')
 #### string
 
 *Required*  
-Type: `string`
+Type: `string`, `number`
 
 String to URI encode.
 
