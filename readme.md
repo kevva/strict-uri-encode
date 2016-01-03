@@ -15,11 +15,11 @@ $ npm install --save strict-uri-encode
 ```js
 var strictUriEncode = require('strict-uri-encode');
 
-strictUriEncode('unicorn*foobar')
-//=> 'unicorn%2afoobar'
-
 strictUriEncode('unicorn!foobar')
 //=> 'unicorn%21foobar'
+
+strictUriEncode('unicorn*foobar')
+//=> 'unicorn%2Afoobar'
 ```
 
 
