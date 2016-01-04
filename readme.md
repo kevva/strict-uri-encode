@@ -13,12 +13,12 @@ $ npm install --save strict-uri-encode
 ## Usage
 
 ```js
-var strictUriEncode = require('strict-uri-encode');
+const strictUriEncode = require('strict-uri-encode');
 
-strictUriEncode('unicorn!foobar')
+strictUriEncode('unicorn!foobar');
 //=> 'unicorn%21foobar'
 
-strictUriEncode('unicorn*foobar')
+strictUriEncode('unicorn*foobar');
 //=> 'unicorn%2Afoobar'
 ```
 
