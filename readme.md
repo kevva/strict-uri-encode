@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save strict-uri-encode
+$ npm install strict-uri-encode
 ```
 
 
@@ -29,11 +29,11 @@ strictUriEncode('unicorn*foobar');
 
 #### string
 
-Type: `string`, `number`
+Type: `string` `number`
 
 String to URI encode.
 
 
 ## License
 
-MIT © [Kevin Mårtensson](http://github.com/kevva)
+MIT © [Kevin Mårtensson](https://github.com/kevva)

@@ -1,5 +1,5 @@
 import test from 'ava';
-import m from './';
+import m from '.';
 
 test(t => {
 	t.is(m('unicorn!foobar'), 'unicorn%21foobar');
