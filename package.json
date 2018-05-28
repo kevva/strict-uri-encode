@@ -13,11 +13,13 @@
 		"node": ">=4"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && ava",
+		"prepublish": "npx babel index.js --out-dir build"
 	},
 	"files": [
 		"index.js"
 	],
+	"main": "build/index.js",
 	"keywords": [
 		"component",
 		"encode",
@@ -27,5 +29,10 @@
 	"devDependencies": {
 		"ava": "*",
 		"xo": "*"
+	},
+	"dependencies": {
+		"babel": "^6.23.0",
+		"babel-cli": "^6.26.0",
+		"babel-preset-es2015": "^6.24.1"
 	}
 }
