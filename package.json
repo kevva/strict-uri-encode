@@ -13,7 +13,8 @@
 		"node": ">=4"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && ava",
+		"prepare": "babel src/index.js -o index.js"
 	},
 	"files": [
 		"index.js"
@@ -25,6 +26,9 @@
 		"uri"
 	],
 	"devDependencies": {
+		"@babel/cli": "^7.1.5",
+		"@babel/core": "^7.1.6",
+		"@babel/preset-env": "^7.1.6",
 		"ava": "*",
 		"xo": "*"
 	}
