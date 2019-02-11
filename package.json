@@ -17,6 +17,7 @@
 		"build": "babel ./index.js --out-file ./lib.js",
 		"prepublish": "yarn build"
 	},
+	"main": "./lib.js",
 	"files": [
 		"index.js",
 		"lib.js"
