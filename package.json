@@ -14,13 +14,14 @@
 	},
 	"scripts": {
 		"test": "xo && ava",
-		"build": "babel ./index.js --out-file ./lib.js",
+		"build": "babel ./index.js --out-file ./lib.js --source-maps",
 		"prepublish": "yarn build"
 	},
 	"main": "./lib.js",
 	"files": [
 		"index.js",
-		"lib.js"
+		"lib.js",
+		"lib.js.map"
 	],
 	"keywords": [
 		"component",
