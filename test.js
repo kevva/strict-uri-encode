@@ -1,7 +1,7 @@
 import test from 'ava';
 import m from '.';
 
-test(t => {
+test('strict uri encode', t => {
 	t.is(m('unicorn!foobar'), 'unicorn%21foobar');
 	t.is(m('unicorn\'foobar'), 'unicorn%27foobar');
 	t.is(m('unicorn*foobar'), 'unicorn%2Afoobar');
