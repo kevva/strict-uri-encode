@@ -29,11 +29,6 @@ strictUriEncode('unicorn*foobar');
 
 #### string
 
-Type: `string` `number`
+Type: `string | number`
 
 String to URI encode.
-
-
-## License
-
-MIT © [Kevin Mårtensson](https://github.com/kevva)
